@@ -8,7 +8,7 @@ import { App } from 'components/App';
 import { persistor } from './redux/store';
 import './index.css';
 import { store } from './redux/store';
-import { theme } from './theme';
+import { theme } from './them';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

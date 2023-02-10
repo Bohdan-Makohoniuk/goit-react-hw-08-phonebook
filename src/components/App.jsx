@@ -1,8 +1,8 @@
 import { Routes, Route } from 'react-router-dom';
-import { ContactsPage } from 'pages/ContactsPage/ContactsPage';
+import { ContactsPage } from 'pages/ContactPage/ContactPage';
 import { LoginPage } from 'pages/LoginPage/LoginPage';
 import { SignUpPage } from 'pages/SignUpPage/SignUpPage';
-import { GlobalStyle } from './GlobalStyle';
+import { GlobalStyle } from './Global.styled';
 import { Layout } from './Layout';
 import { PrivateRoute } from './PrivateRoute';
 import { RestrictedRoute } from './RestrictedRoute';

@@ -1,7 +1,7 @@
 import { ContactForm } from '../../components/ContactForm/ContactForm';
 import { ContactList } from '../../components/ContactList/ContactList';
 import { Filter } from '../../components/Filter/Filter';
-import { Container } from './ContactsPage.styled';
+import { Container } from './ContactPage.styled';
 export const ContactsPage = () => {
   return (
     <Container>
@@ -14,3 +14,7 @@ export const ContactsPage = () => {
     </Container>
   );
 };
+
+module.exports = {
+  ContactsPage
+}
