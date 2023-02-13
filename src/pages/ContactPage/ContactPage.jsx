@@ -15,6 +15,6 @@ export const ContactsPage = () => {
   );
 };
 
-module.exports = {
-  ContactsPage
-}
+// module.exports = {
+//   ContactsPage
+// }
